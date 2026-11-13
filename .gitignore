@@ -9,3 +9,7 @@ data_large/
 reports/
 final_state.csv
 .pytest_cache/
+
+# Files the pipeline creates: PII key and SQLite WAL/SHM side files (never commit)
+*.key
+*.db-*
